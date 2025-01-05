@@ -151,5 +151,5 @@ def save_model(model, model_path='model.pth'):
     print(f'Model saved to {model_path}')
 
 # 训练模型
-train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=1)
+train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=20)
 
